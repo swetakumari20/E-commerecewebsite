@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            margin:0;
+            padding:0;
+            font-family: sans-serif;
+    
+        }
+        form{
+            margin:auto;
+            width:400px;
+            box-shadow: 0px 0px 10px 2px #ccc;
+            padding:10px;
+
+        }
+        form label{
+            display:block;
+            font-size: 16px;
+        }
+        form input{
+            width:100%;
+            height:30px;
+            margin:10px;
+        }
+        form h2{
+            padding:20px;
+        }
+        form button{
+            padding:10px 25px;
+            background-color: blue;
+            color:white;
+            border:none;
+            cursor:pointer;
+            margin-left:12px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <h2>Log in form</h2>
+        <label for="">Email</label>
+        <input type="text" placeholder="enter Email" id="email" >
+        <label for="">password</label>
+        <input type="password" placeholder="enter password" id="password" >
+        <button onclick="check()">login</button>
+        </form>
+
+    <script src="login.js" ></script>
+</body>
+</html>
